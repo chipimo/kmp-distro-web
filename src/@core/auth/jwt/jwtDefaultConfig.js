@@ -1,8 +1,8 @@
 // ** Auth Endpoints
 export default {
-  loginEndpoint: 'http://localhost:4000/api/user/login',
-  registerEndpoint: 'http://localhost:4000/api/user/register',
-  newReleaseEndpoint: 'http://localhost:4000/api/user/new-release',
+  loginEndpoint: 'https://dashboard.heroku.com/apps/distroserver/api/user/login',
+  registerEndpoint: 'https://dashboard.heroku.com/apps/distroserver/api/user/register',
+  newReleaseEndpoint: 'https://dashboard.heroku.com/apps/distroserver/api/user/new-release',
   refreshEndpoint: '/jwt/refresh-token',
   logoutEndpoint: '/jwt/logout',
 
